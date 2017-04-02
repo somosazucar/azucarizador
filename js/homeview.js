@@ -216,7 +216,7 @@ enyo.kind({
 		this.$.owner.applyStyle("margin-top", (canvas_center.y-constant.sizeOwner/2)+"px");
 		this.$.journal.setColorized(this.journal.length > 0);
 		this.$.journal.applyStyle("margin-left", (canvas_center.x-constant.sizeJournal/2)+"px");
-		this.$.journal.applyStyle("margin-top", (canvas_center.y+constant.sizeOwner-constant.sizeJournal+jdeltay)+"px");
+		this.$.journal.applyStyle("margin-top", (canvas_center.y+constant.sizeOwner+jdeltay)+"px");
 		this.$.owner.setShowing(this.currentView == constant.radialView);
 		this.$.journal.setShowing(this.currentView == constant.radialView);
 

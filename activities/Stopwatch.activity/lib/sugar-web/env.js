@@ -62,7 +62,7 @@ define(function () {
 
     env.isStandalone = function () {
         var webActivityHost = "0.0.0.0";
-        var currentHost = env.getHost();
+        var currentHost = window.location.hostname;
 
         return currentHost !== webActivityHost;
     };
