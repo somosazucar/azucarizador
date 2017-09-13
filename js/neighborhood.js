@@ -24,7 +24,7 @@ enyo.kind({
 	// Constructor: init list
 	create: function() {
 		this.inherited(arguments);
-		this.$.owner.setIcon({directory: "icons", icon: "owner-icon.svg"});
+		this.$.owner.setIcon({directory: "icons", icon: "feet-icon.svg"});
 		this.$.owner.setPopupShow(enyo.bind(this, "showBuddyPopup"));
 		this.$.owner.setPopupHide(enyo.bind(this, "hideBuddyPopup"));
 
@@ -578,7 +578,7 @@ enyo.kind({
 			 if (currentUser.networkId != preferences.getNetworkId()) {
 				var icon = this.$.network.createComponent({
 						kind: "Sugar.Icon",
-						icon: {directory: "icons", icon: "owner-icon.svg"},
+						icon: {directory: "icons", icon: "feet-icon.svg"},
 						size: constant.sizeNeighbor,
 						colorized: true,
 						colorizedColor: currentUser.colorvalue,

@@ -136,7 +136,7 @@ enyo.kind({
 	autoDismiss: false,
 	components: [
 		{name: "toolbar", classes: "toolbar", components: [
-			{name: "icon", kind: "Sugar.Icon", x: 6, y: 6, classes: "module-icon", colorized: true, size: constant.sizeToolbar, icon: {directory: "icons", icon: "owner-icon.svg"}},
+			{name: "icon", kind: "Sugar.Icon", x: 6, y: 6, classes: "module-icon", colorized: true, size: constant.sizeToolbar, icon: {directory: "icons", icon: "feet-icon.svg"}},
 			{name: "text", content: "xxx", classes: "module-text"},
 			{name: "cancelbutton", kind: "Button", classes: "toolbutton module-cancel-button", ontap: "cancel"},
 			{name: "okbutton", kind: "Button", classes: "toolbutton module-ok-button", ontap: "ok"}
@@ -201,7 +201,7 @@ enyo.kind({
 	autoDismiss: false,
 	components: [
 		{name: "toolbar", classes: "toolbar", components: [
-			{name: "icon", kind: "Sugar.Icon", x: 6, y: 6, classes: "module-icon", colorized: true, size: constant.sizeToolbar, icon: {directory: "icons", icon: "owner-icon.svg"}},
+			{name: "icon", kind: "Sugar.Icon", x: 6, y: 6, classes: "module-icon", colorized: true, size: constant.sizeToolbar, icon: {directory: "icons", icon: "feet-icon.svg"}},
 			{name: "text", content: "xxx", classes: "module-text"},
 			{name: "cancelbutton", kind: "Button", classes: "toolbutton module-cancel-button", ontap: "cancel"},
 			{name: "okbutton", kind: "Button", classes: "toolbutton module-ok-button", ontap: "ok"}
@@ -271,7 +271,7 @@ enyo.kind({
 	autoDismiss: false,
 	components: [
 		{name: "toolbar", classes: "toolbar", components: [
-			{name: "icon", kind: "Sugar.Icon", x: 6, y: 6, classes: "module-icon", colorized: true, size: constant.sizeToolbar, icon: {directory: "icons", icon: "owner-icon.svg"}},
+			{name: "icon", kind: "Sugar.Icon", x: 6, y: 6, classes: "module-icon", colorized: true, size: constant.sizeToolbar, icon: {directory: "icons", icon: "feet-icon.svg"}},
 			{name: "text", content: "xxx", classes: "module-text"},
 			{name: "cancelbutton", kind: "Button", classes: "toolbutton module-cancel-button", ontap: "cancel"},
 			{name: "okbutton", kind: "Button", classes: "toolbutton module-ok-button", ontap: "ok"}
@@ -280,11 +280,11 @@ enyo.kind({
 		{name: "content", components: [
 			{name: "message", content: "xxx", classes: "aboutme-message"},
 			{classes: "aboutme-icons", components: [
-				{name: "psicon", kind: "Sugar.Icon", x: 0, y: 6, classes: "aboutme-icon aboutme-psicon", size: constant.sizeOwner, icon: {directory: "icons", icon: "owner-icon.svg"}, ontap:"setcolor"},
-				{name: "nsicon", kind: "Sugar.Icon", x: -12, y: 6, classes: "aboutme-icon aboutme-nsicon", size: constant.sizeOwner, icon: {directory: "icons", icon: "owner-icon.svg"}, ontap:"setcolor"},
-				{name: "cicon", kind: "Sugar.Icon", x: 6, y: 6, classes: "aboutme-icon aboutme-cicon", size: constant.sizeOwner, icon: {directory: "icons", icon: "owner-icon.svg"}, ontap:"setcolor"},
-				{name: "pficon", kind: "Sugar.Icon", x: 0, y: 6, classes: "aboutme-icon aboutme-pficon", size: constant.sizeOwner, icon: {directory: "icons", icon: "owner-icon.svg"}, ontap:"setcolor"},
-				{name: "nficon", kind: "Sugar.Icon", x: -12, y: 6, classes: "aboutme-icon aboutme-nficon", size: constant.sizeOwner, icon: {directory: "icons", icon: "owner-icon.svg"}, ontap:"setcolor"}
+				{name: "psicon", kind: "Sugar.Icon", x: 0, y: 6, classes: "aboutme-icon aboutme-psicon", size: constant.sizeOwner, icon: {directory: "icons", icon: "feet-icon.svg"}, ontap:"setcolor"},
+				{name: "nsicon", kind: "Sugar.Icon", x: -12, y: 6, classes: "aboutme-icon aboutme-nsicon", size: constant.sizeOwner, icon: {directory: "icons", icon: "feet-icon.svg"}, ontap:"setcolor"},
+				{name: "cicon", kind: "Sugar.Icon", x: 6, y: 6, classes: "aboutme-icon aboutme-cicon", size: constant.sizeOwner, icon: {directory: "icons", icon: "feet-icon.svg"}, ontap:"setcolor"},
+				{name: "pficon", kind: "Sugar.Icon", x: 0, y: 6, classes: "aboutme-icon aboutme-pficon", size: constant.sizeOwner, icon: {directory: "icons", icon: "feet-icon.svg"}, ontap:"setcolor"},
+				{name: "nficon", kind: "Sugar.Icon", x: -12, y: 6, classes: "aboutme-icon aboutme-nficon", size: constant.sizeOwner, icon: {directory: "icons", icon: "feet-icon.svg"}, ontap:"setcolor"}
 			]},
 			{classes: "aboutme-input", components: [
 				{name: "name", kind: "Input", classes: "aboutme-name", oninput:"namechanged"}
@@ -868,7 +868,7 @@ enyo.kind({
 	autoDismiss: false,
 	components: [
 		{name: "toolbar", classes: "toolbar", components: [
-			{name: "icon", kind: "Sugar.Icon", x: 6, y: 6, classes: "module-icon", colorized: true, size: constant.sizeToolbar, icon: {directory: "icons", icon: "owner-icon.svg"}},
+			{name: "icon", kind: "Sugar.Icon", x: 6, y: 6, classes: "module-icon", colorized: true, size: constant.sizeToolbar, icon: {directory: "icons", icon: "feet-icon.svg"}},
 			{name: "text", content: "xxx", classes: "module-text"},
 			{name: "cancelbutton", kind: "Button", classes: "toolbutton module-cancel-button", ontap: "cancel"},
 			{name: "okbutton", kind: "Button", classes: "toolbutton module-ok-button", ontap: "ok"}

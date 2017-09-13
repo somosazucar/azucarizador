@@ -26,7 +26,7 @@ enyo.kind({
 		this.$.text.setContent(l10n.get("Name"));
 		this.$.previous.setText(l10n.get("Back"));
 		this.$.next.setText(l10n.get("Next"));
-		this.$.owner.setIcon({directory: "icons", icon: "owner-icon.svg"});
+		this.$.owner.setIcon({directory: "icons", icon: "feet-icon.svg"});
 		this.$.colortext.setContent(l10n.get("ClickToColor"));
 		var canvas_center = util.getCanvasCenter();
 		this.$.owner.applyStyle("margin-left", (canvas_center.x-constant.sizeOwner/2)+"px");

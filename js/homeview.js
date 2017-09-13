@@ -38,7 +38,7 @@ enyo.kind({
 		this.otherview = null;
 		this.toolbar = null;
 		util.setToolbar(this.getToolbar());
-		this.$.owner.setIcon({directory: "icons", icon: "owner-icon.svg"});
+		this.$.owner.setIcon({directory: "icons", icon: "feet-icon.svg"});
 		this.$.owner.setPopupShow(enyo.bind(this, "showBuddyPopup"));
 		this.$.owner.setPopupHide(enyo.bind(this, "hideBuddyPopup"));
 		this.$.journal.setIcon({directory: "icons", icon: "activity-journal.svg"});
